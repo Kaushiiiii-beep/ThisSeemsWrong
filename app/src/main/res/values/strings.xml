@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ThisSeemsWrong</string>
+    <string name="hello">This
+        is exploit for <tt>Parcel::continueWrite</tt> method closing file descriptors
+        which then may be passed back to this app
+
+        \n\nSelect action from list below and press Start
+
+        \n\n\"Inject input events\" will open \"About phone\" screen, then \"Device name\"
+        and then will type \"key injection demo\" (but not confirm). While this is harmless,
+        it demonstrates ability to inject input events to other apps, which could be used
+        for example to approve permissions
+
+        \n\n\"Grab zygote via reboot\" will attempt grabbing zygote by crashing \"system_server\"
+        and attempting to run exploit during system startup. It appears however that this race
+        cannot be won on real devices
+
+        \n\n\"Grab zygote via SensorServer\" will use bug inside <tt>SensorService::createSensorDirectConnection()</tt>
+        method where \"dup()\" receives untrusted value from calling app
+
+        \n\n\"Grab FDs from simulated system\" allows running this exploit against simulated
+        \"system_server\" after selecting this option (before clicking \"Start\") you\'ll see pid
+        of Service which has loaded relevant \"system_server\" components to be exploit target,
+        you can then attach debugger to that Service (using either that pid or \"com.example.thisseemswrong:testservice\" name)
+    </string>
+    <string name="start_button">Start</string>
+    <string-array name="modes_descriptions">
+        <item>Inject input events</item>
+        <item>Grab zygote via reboot</item>
+        <item>Grab zygote via SensorServer</item>
+        <item>Grab FDs from simulated system</item>
+    </string-array>
+</resources>

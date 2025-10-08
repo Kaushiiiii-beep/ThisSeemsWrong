@@ -1,0 +1,40 @@
+RemoteViews
+	ReflectionAction
+		Bundle
+			Parcelable[]
+				ReceiverInfo [seek]
+					Intent
+						ComponentName [  SEGMENT A  ]
+							ParceledListSlice
+							ParcelableParcel
+						Bundle [catch]  [  SEGMENT B  ]
+							ReceiverInfo [rethrow]
+								Bundle
+									PackageParser$Activity
+										PooledStringWriter
+
+
+args = {ArrayList@36804}  size = 17
+ 0 = "--runtime-args"
+ 1 = "--setuid=1000"
+ 2 = "--setgid=1000"
+ 3 = "--runtime-flags=20973568"
+ 4 = "--mount-external-default"
+ 5 = "--target-sdk-version=34"
+ 6 = "--setgroups=1065,3002,3003,3001,3007,1007,1000,9997,1077"
+ 7 = "--nice-name=com.android.settings"
+ 8 = "--seinfo=platform:privapp:targetSdkVersion=34:partition=system_ext:complete"
+ 9 = "--instruction-set=x86_64"
+ 10 = "--app-data-dir=/data/user_de/0/com.android.settings"
+ 11 = "--package-name=com.android.settings"
+ 12 = "--is-top-app"
+ 13 = "--pkg-data-info-map=com.android.dynsystem,null,548884,android,null,549019,com.android.providers.settings,null,549091,com.android.inputdevices,null,549109,com.android.server.telecom,null,549157,com.android.keychain,null,549163,com.android.localtransport,null,549190,com.android.DeviceAsWebcam,null,549205,com.android.settings,null,549292,com.android.location.fused,null,549352"
+ 14 = "--disabled-compat-changes=63938206,132649864,135634846,135772972,143231523,143539591,161252188,162547999,166236554,168419799,169897160,174042936,174042980,174043039,174227820,174228127,176926741,176926753,176926771,176926829,177438394,178038272,180326787,180326845,181136395,182811243,184838306,185004937,189229956,189969734,189969744,189969749,189969779,189969782,189970036,189970038,189970040,191513214,196254758,202956589,208648326,210856463,215066299,216114297,218959984,230590090,236283604,237531167,240618202,254631730,255039210,255659651,255940284,263259275,263474465,263959004,264179692,264301586,264304459,265451093,265452344,265456536,265464455,266124927,270551184,270674727,272527315,272737196,273509367,273564678,279646685,291868760,293644536,296060945,296478951,296558535,297019750,297989574,300477393,302563478,302589903,303326708,303742236,307233716,308103782,308670109,308673617,309578419,310816437,311208629,311208749,311402873,313677553,319400769,320664730,320741775,323349338"
+ 15 = "android.app.ActivityThread"
+ 16 = "seq=46"
+
+ThisSeemsWrong: si=[65536, 65536, 1, 5, 0]
+
+
+adb shell getprop ro.build.fingerprint
+google/oriole/oriole:14/AP2A.240805.005.F1/12043167:user/release-keys
